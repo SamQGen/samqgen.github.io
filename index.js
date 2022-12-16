@@ -7373,6 +7373,7 @@ function useRouter() {
 function useRoute() {
   return inject(routeLocationKey);
 }
+const App_vue_vue_type_style_index_0_lang = "";
 const _sfc_main$2h = {
   __name: "App",
   setup(__props) {
@@ -8150,7 +8151,7 @@ const _sfc_main$2g = {
       const _component_el_row = resolveComponent("el-row");
       const _component_el_button = resolveComponent("el-button");
       const _component_el_card = resolveComponent("el-card");
-      return openBlock(), createBlock(_component_el_card, null, {
+      return openBlock(), createBlock(_component_el_card, { class: "main-card" }, {
         header: withCtx(() => [
           _hoisted_1$14
         ]),
@@ -8200,7 +8201,7 @@ const router = createRouter({
     {
       path: "/select-document",
       name: "select-document",
-      component: () => __vitePreload(() => import("./SelectDocumentView.js"), true ? ["SelectDocumentView.js","assets/SelectDocumentView-be5753b8.css"] : void 0)
+      component: () => __vitePreload(() => import("./SelectDocumentView.js"), true ? ["SelectDocumentView.js","assets/SelectDocumentView-d44a94bb.css"] : void 0)
     }
   ]
 });

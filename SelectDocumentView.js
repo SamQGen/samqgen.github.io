@@ -6,8 +6,8 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const SelectDocumentView_vue_vue_type_style_index_0_scoped_d1b767d9_lang = "";
-const _withScopeId = (n) => (pushScopeId("data-v-d1b767d9"), n = n(), popScopeId(), n);
+const SelectDocumentView_vue_vue_type_style_index_0_scoped_d21a62f1_lang = "";
+const _withScopeId = (n) => (pushScopeId("data-v-d21a62f1"), n = n(), popScopeId(), n);
 const _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("h1", null, "Select Document", -1));
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", {
   slot: "header",
@@ -39,7 +39,7 @@ const _sfc_main = {
       const _component_el_button = resolveComponent("el-button");
       const _component_el_card = resolveComponent("el-card");
       const _component_el_row = resolveComponent("el-row");
-      return openBlock(), createBlock(_component_el_card, null, {
+      return openBlock(), createBlock(_component_el_card, { class: "main-card" }, {
         header: withCtx(() => [
           _hoisted_1
         ]),
@@ -131,7 +131,7 @@ const _sfc_main = {
     };
   }
 };
-const SelectDocumentView = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-d1b767d9"]]);
+const SelectDocumentView = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-d21a62f1"]]);
 export {
   SelectDocumentView as default
 };
