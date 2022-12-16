@@ -7385,9 +7385,10 @@ var require_index = __commonJS({
     };
     const App = /* @__PURE__ */ _export_sfc$1(_sfc_main$2h, [["__scopeId", "data-v-00e259bf"]]);
     const WelcomeItem_vue_vue_type_style_index_0_scoped_cf6bc0bd_lang = "";
-    const _hoisted_1$14 = /* @__PURE__ */ createBaseVNode("div", null, " consent ", -1);
-    const _hoisted_2$H = /* @__PURE__ */ createBaseVNode("div", null, " I declare that I am over 16 years old and I agree to the collection, processing and storing of my personal information by QGen for the purposes of identity verification and that the information I provide is accurate and true. I understand that I remain responsible in case I provide wrong information or any documents I provide are counterfeits or fake. ", -1);
-    const _hoisted_3$l = { class: "footer justify-end" };
+    const _hoisted_1$14 = /* @__PURE__ */ createBaseVNode("h1", null, " Prove your identity ", -1);
+    const _hoisted_2$H = /* @__PURE__ */ createBaseVNode("h2", null, " consent ", -1);
+    const _hoisted_3$l = /* @__PURE__ */ createBaseVNode("div", null, " I declare that I am over 16 years old and I agree to the collection, processing and storing of my personal information by QGen for the purposes of identity verification and that the information I provide is accurate and true. I understand that I remain responsible in case I provide wrong information or any documents I provide are counterfeits or fake. ", -1);
+    const _hoisted_4$c = { class: "footer justify-end" };
     const _sfc_main$2g = /* @__PURE__ */ defineComponent({
       __name: "AboutView",
       setup(__props) {
@@ -7403,12 +7404,12 @@ var require_index = __commonJS({
                 default: withCtx(() => [
                   createVNode(_component_el_card, null, {
                     header: withCtx(() => [
-                      createTextVNode(" Prove your identity ")
+                      _hoisted_1$14
                     ]),
                     default: withCtx(() => [
-                      _hoisted_1$14,
                       _hoisted_2$H,
-                      createBaseVNode("div", _hoisted_3$l, [
+                      _hoisted_3$l,
+                      createBaseVNode("div", _hoisted_4$c, [
                         createVNode(_component_el_space, { class: "vertical" }, {
                           default: withCtx(() => [
                             createVNode(_component_el_button, {
