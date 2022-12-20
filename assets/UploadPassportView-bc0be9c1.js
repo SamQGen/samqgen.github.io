@@ -1,1 +1,0 @@
-import{_ as o}from"./UploadItem-3db93793.js";import{x as t,y as p}from"./index-5e64759d.js";import"./index-6df13c70.js";const c={__name:"UploadPassportView",setup(r){return(a,e)=>(t(),p(o,{title:"Upload Passport"}))}};export{c as default};

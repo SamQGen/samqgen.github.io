@@ -1,1 +1,0 @@
-import{_ as t}from"./UploadItem-3db93793.js";import{_ as e}from"./index-6df13c70.js";import{x as r,y as n}from"./index-5e64759d.js";const a={name:"IdCardView"};function _(c,p,s,d,i,m){const o=t;return r(),n(o,{title:"Upload ID Card"})}const x=e(a,[["render",_]]);export{x as default};

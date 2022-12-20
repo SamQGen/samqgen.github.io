@@ -1,0 +1,1 @@
+import{_ as o}from"./UploadItem-96c17832.js";import{o as t,d as p}from"./index-eb993809.js";/* empty css             */import"./_plugin-vue_export-helper-c27b6911.js";import"./UploadFile.vue_vue_type_script_setup_true_lang-b0930aa9.js";const i={__name:"UploadPassportView",setup(r){return(a,e)=>(t(),p(o,{title:"Upload Passport"}))}};export{i as default};
